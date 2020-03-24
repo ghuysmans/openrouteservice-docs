@@ -9,7 +9,8 @@
     "license":{
       "name":"MIT",
       "url":"https://github.com/swagger-api/swagger-ui/blob/master/LICENSE"
-    }
+    },
+    "version": "2.0"
   },
   "host":"api.openrouteservice.org",
   "basePath":"/",
