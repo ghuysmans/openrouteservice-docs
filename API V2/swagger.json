@@ -175,9 +175,6 @@
               "$ref":"#/definitions/JSONRouteResponse"
             }
           },
-          "201":{
-            "description":"Created"
-          },
           "400":{
             "description":"The request is incorrect and therefore can not be processed."
           },
@@ -260,9 +257,6 @@
             "schema":{
               "$ref":"#/definitions/GeoJSONRouteResponse"
             }
-          },
-          "201":{
-            "description":"Created"
           },
           "400":{
             "description":"The request is incorrect and therefore can not be processed."
@@ -347,9 +341,6 @@
               "$ref":"#/definitions/gpx"
             }
           },
-          "201":{
-            "description":"Created"
-          },
           "400":{
             "description":"The request is incorrect and therefore can not be processed."
           },
@@ -432,9 +423,6 @@
             "schema":{
               "$ref":"#/definitions/JSONRouteResponse"
             }
-          },
-          "201":{
-            "description":"Created"
           },
           "400":{
             "description":"The request is incorrect and therefore can not be processed."
@@ -549,9 +537,6 @@
               "$ref":"#/definitions/GeoJSONIsochronesResponse"
             }
           },
-          "201":{
-            "description":"Created"
-          },
           "400":{
             "description":"The request is incorrect and therefore can not be processed."
           },
@@ -634,9 +619,6 @@
             "schema":{
               "$ref":"#/definitions/JSONMatrixResponse"
             }
-          },
-          "201":{
-            "description":"Created"
           },
           "400":{
             "description":"The request is incorrect and therefore can not be processed."
@@ -1810,15 +1792,6 @@
             "102",
             "103",
             "200",
-            "201",
-            "202",
-            "203",
-            "204",
-            "205",
-            "206",
-            "207",
-            "208",
-            "226",
             "300",
             "301",
             "302",
