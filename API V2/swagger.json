@@ -36,6 +36,16 @@
       "description":"Status API"
     }
   ],
+  "securityDefinitions": {
+    "APIKeyQueryParam": {
+      "type": "apiKey",
+      "in": "query",
+      "name": "api_key"
+    }
+  },
+  "security": [
+    {"APIKeyQueryParam": []}
+  ],
   "paths":{
     "/v2/directions/{profile}":{
       "get":{
